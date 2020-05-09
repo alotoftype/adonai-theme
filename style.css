@@ -1,28 +1,49 @@
-
+header {
+  display: flex;
+}
+.logo {
+  margin: .2rem .5rem;
+}
+.brand, .nav {
+  width: 50%;
+}
 nav ul li {
   list-style-type: none;
   display: inline-block;
 }
+
+.featured {
+  width: 100%;
+}
+
+.img_wrapper img {
+  width: 100%;
+  object-fit: cover
+}
+
 .categories {
   width: 100%;
   max-width: 1200px;
   display: flex;
   flex-wrap: wrap;
+  margin: 1.5rem auto;
 }
 
 .category_item {
-  height: 20rem;
+  height: 15rem;
   min-width: 32%;
   flex-grow: 1;
   background-image: url('https://place-hold.it/1200x300');
-  border: 1px solid black;
   display: flex;
   align-items: center;
   justify-content: center;
+  box-sizing: border-box;
+  margin:.5rem;
 }
 
 .category_item p {
   background-color: #000;
   color:#fff;
+  text-decoration: underline;
   padding: .5rem 1rem;
 }
