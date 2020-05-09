@@ -1,0 +1,28 @@
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+.categories {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.category_item {
+  height: 20rem;
+  min-width: 32%;
+  flex-grow: 1;
+  background-image: url('https://place-hold.it/1200x300');
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.category_item p {
+  background-color: #000;
+  color:#fff;
+  padding: .5rem 1rem;
+}
